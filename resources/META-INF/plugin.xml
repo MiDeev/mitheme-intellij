@@ -1,0 +1,38 @@
+<idea-plugin>
+  <id>ru.mideev.mitheme</id>
+  <name>MiTheme</name>
+  <version>1.0.0</version>
+  <vendor email="mi@mideev.ru" url="https://mideev.ru">MiDeev</vendor>
+
+  <description><![CDATA[
+  А dark theme with a slight blue-turquoise tint, made by <a href="https://github.com/MiDeev">MiDeev</a>.
+
+  <br/><br/>
+  <b>To install:</b>
+  <ul>
+  <li>Go to <i>Settings (Preferences) | Plugins</i>, find the theme plugin, and install it</li>
+  <li>Restart the IDE</li>
+  <li>Go to <i>Settings (Preferences) | Appearance & Behavior | Appearance</i> and select MiTheme in the <i>Theme</i> dropdown</li>
+  </ul>
+  <br/>
+
+  <a href="https://github.com/MiDeev/MiTheme">The MiTheme on GitHub</a>
+  <br/><br/><br/>
+  <img src="https://raw.githubusercontent.com/MiDeev/MiTheme/main/preview1.png" border="0" width="500" alt="Code screenshot">
+  <br/>
+  <img src="https://raw.githubusercontent.com/MiDeev/MiTheme/main/preview2.png" border="0" width="500" alt="Settings screenshot">
+  
+  ]]></description>
+
+  <idea-version since-build="191.0"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="ef29b6ef-e306-45f0-919d-6264c9105248" path="/MiTheme.theme.json"/>
+  </extensions>
+
+  <actions>
+  </actions>
+
+</idea-plugin>
