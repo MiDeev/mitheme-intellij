@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>ru.mideev.mitheme</id>
   <name>MiTheme</name>
-  <version>1.0.0</version>
+  <version>1.2.0</version>
   <vendor email="mi@mideev.ru" url="https://mideev.ru">MiDeev</vendor>
 
   <description><![CDATA[
@@ -18,13 +18,13 @@
 
   <a href="https://github.com/MiDeev/MiTheme">The MiTheme on GitHub</a>
   <br/><br/><br/>
-  <img src="https://raw.githubusercontent.com/MiDeev/MiTheme/main/preview1.png" border="0" width="500" alt="Code screenshot">
+  <img src="https://raw.githubusercontent.com/MiDeev/MiTheme/master/images/preview-code.png" border="0" width="500" alt="Code screenshot">
   <br/>
-  <img src="https://raw.githubusercontent.com/MiDeev/MiTheme/main/preview2.png" border="0" width="500" alt="Settings screenshot">
+  <img src="https://raw.githubusercontent.com/MiDeev/MiTheme/master/images/preview-settings.png" border="0" width="500" alt="Settings screenshot">
   
   ]]></description>
 
-  <idea-version since-build="191.0"/>
+  <idea-version since-build="191" until-build="222.*" />
 
   <depends>com.intellij.modules.lang</depends>
 
